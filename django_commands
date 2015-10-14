@@ -1,0 +1,13 @@
+#django-admin startproject mysite-- to create a project
+
+#$ python manage.py runserver -- to start server
+
+#python manage.py startapp polls - to create a app
+
+#$ python manage.py makemigrations polls--By running makemigrations, you’re telling Django that you’ve made some changes to your models (in this case, you’ve made new ones) and that you’d like the changes to be stored as a migration.
+
+#python manage.py migrate - The migrate command looks at the INSTALLED_APPS setting and creates any necessary database tables according to the database settings in your mysite/settings.py 
+
+# python manage.py migrate to apply those changes to the database.
+
+#python manage.py shell -- for shell prompt
